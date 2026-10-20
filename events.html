@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events</title>
+</head>
+<body>
+
+
+<nav>
+    <a href="index.html">JavaScript Basics</a>
+    <a href="dom.html">DOM Manipulation</a>
+    <a href="events.html">Events</a>
+    <a href="todo.html">To-Do List</a>
+</nav>
+
+<hr>
+
+
+
+<h1>Task 5 - Mouse Events</h1>
+
+<div id="mouseBox"
+     onmouseover="mouseOver()"
+     onmouseout="mouseOut()"
+     style="background-color: lightblue; padding: 30px; width: 200px;">
+
+    Move mouse here!
+
+</div>
+
+
+
+
+
+
+<h1>Task 6 - Keyboard Events</h1>
+
+<input type="text" id="myInput" onkeyup="showText()" placeholder="Type something...">
+
+<p id="result"></p>
+
+
+
+
+
+<h1>Task 7 - Calculator</h1>
+
+<input type="number" id="num1" placeholder="First number">
+<input type="number" id="num2" placeholder="Second number">
+
+<br><br>
+
+<button onclick="calculate('+')">+</button>
+<button onclick="calculate('-')">-</button>
+<button onclick="calculate('*')">*</button>
+<button onclick="calculate('/')">/</button>
+
+<p id="answer">Result: </p>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
